@@ -1,0 +1,23 @@
+#repeat { background-repeat: repeat; }
+
+#repeat-x { background-repeat: repeat-x; }
+
+#repeat-y { background-repeat: repeat-y; }
+
+#space { background-repeat: space; }
+
+#round { background-repeat: round; }
+
+#no-repeat { background-repeat: no-repeat; }
+
+#initial { background-repeat: initial; }
+
+body { font-family: sans-serif; }
+
+div {
+  width: 400px;
+  height: 125px;
+  border: 5px solid rgba(29, 176, 202, 0.747);
+  margin-bottom: 2em;
+  background: url(image.png); 
+}
