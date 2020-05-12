@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+   Project:         To demonstrate masking using image property.
+   Author:          Nimritee Sirsalewala
+   Primary use:     Informative
+   Last updated on: 12th May 2020
+   Copyright:       © 2020 Nimritee All rights reserved.
+-->
+<html lang="en-US">
+    <head>
+        <title>
+
+        </title>
+        <style>
+       .mask-image {
+            display: block;
+            max-width: 50%;
+            height: 300px;
+            margin: 50px auto 20px;
+        }
+        .object-mask {
+            -webkit-mask-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ed/Logo_of_Unsplash.svg);
+            mask-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ed/Logo_of_Unsplash.svg);
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: 350px;
+            mask-size: 350px;
+            -webkit-mask-position: center;
+            mask-position: center;
+        }
+    </style>
+    </head>
+    <body>
+        <img class="mask-image object-mask" src="background.jpeg">
+    </body>
+</html>
