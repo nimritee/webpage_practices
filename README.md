@@ -4,3 +4,4 @@ Create different web pages.
 *CSS Tricks*
 - background-repeat
 - mask-image
+- zoom on hover
