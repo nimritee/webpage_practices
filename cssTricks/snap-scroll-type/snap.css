@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .box {
+    display: flex;
+    overflow: auto;
+    flex: none;
+    width: 50vw;
+    height: 50vh;
+    flex-flow: column nowrap;
+  }
+  
+  .y-scrolling {
+      scroll-snap-type: y mandatory;
+  }
+
+  .box > div {
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+    line-height: 3;
+    font-size: 128px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .box > div:nth-child(even) {
+    background-color: #42f2f5;
+  }
+  
+  .box > div:nth-child(odd) {
+    background-color: rgb(234, 238, 17);
+  }
