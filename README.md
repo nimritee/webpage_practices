@@ -5,3 +5,4 @@ Create different web pages.
 - background-repeat
 - mask-image
 - zoom on hover
+- scroll-snap-type
