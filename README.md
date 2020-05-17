@@ -6,3 +6,4 @@ Create different web pages.
 - mask-image
 - zoom on hover
 - scroll-snap-type
+- shape-outside

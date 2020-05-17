@@ -1,0 +1,10 @@
+img {
+    width: 300px;
+    clip-path: circle(85% at 10% 50%);
+    shape-outside: circle(85% at 10% 50%) border-box;  
+}
+  
+.left {
+    float: left;
+}
+  
